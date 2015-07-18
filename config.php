@@ -1,5 +1,6 @@
 <?php
 // HTTP
+
 define('HTTP_SERVER', 'http://localhost/TechWorld-OpenCart/');
 
 // HTTPS
@@ -16,6 +17,11 @@ define('DIR_IMAGE', 'C:\wamp\www\TechWorld-OpenCart/image/');
 define('DIR_CACHE', 'C:\wamp\www\TechWorld-OpenCart/system/cache/');
 define('DIR_DOWNLOAD', 'C:\wamp\www\TechWorld-OpenCart/download/');
 define('DIR_LOGS', 'C:\wamp\www\TechWorld-OpenCart/system/logs/');
+
+
+
+
+
 
 // DB
 define('DB_DRIVER', 'mysqli');
