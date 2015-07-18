@@ -1,4 +1,4 @@
-Online e-shop for EXTENSA internship...
+Online e-shop for EXTENSA internship.
 
 
 If you run it with vQmod - use default OpenCart 1.5.6.4.
