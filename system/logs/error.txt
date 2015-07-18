@@ -1,0 +1,5 @@
+2015-07-18 16:26:39 - PHP Notice:  Error: Could not load language english! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 16:26:39 - PHP Notice:  Error: Could not load language common/login! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 16:26:39 - PHP Notice:  Error: Could not load language common/header! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 16:26:39 - PHP Notice:  Error: Could not load language common/footer! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 16:26:45 - PHP Notice:  Error: Could not load template C:\wamp\www\TechWorld-OpenCart/admin/view/templatecommon/header.tpl! in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
