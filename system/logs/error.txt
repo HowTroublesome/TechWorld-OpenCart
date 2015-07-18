@@ -1,0 +1,16 @@
+2015-07-18 15:49:43 - PHP Notice:  Use of undefined constant HTTP_SERVER - assumed 'HTTP_SERVER' in C:\wamp\www\TechWorld-OpenCart\admin\controller\common\header.php on line 9
+2015-07-18 15:49:55 - PHP Notice:  Use of undefined constant DIR_TEMPLATE - assumed 'DIR_TEMPLATE' in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 77
+2015-07-18 15:49:55 - PHP Notice:  Use of undefined constant DIR_TEMPLATE - assumed 'DIR_TEMPLATE' in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
+2015-07-18 15:49:55 - PHP Notice:  Error: Could not load template DIR_TEMPLATEcommon/header.tpl! in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 16
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 28
+2015-07-18 15:49:59 - PHP Notice:  Error: Could not load language english! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 16
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 28
+2015-07-18 15:49:59 - PHP Notice:  Error: Could not load language common/login! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 16
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 28
+2015-07-18 15:49:59 - PHP Notice:  Error: Could not load language common/header! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 16
+2015-07-18 15:49:59 - PHP Notice:  Use of undefined constant DIR_LANGUAGE - assumed 'DIR_LANGUAGE' in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 28
+2015-07-18 15:49:59 - PHP Notice:  Error: Could not load language common/footer! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
