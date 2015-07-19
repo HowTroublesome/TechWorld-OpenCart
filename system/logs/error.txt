@@ -3,3 +3,16 @@
 2015-07-18 16:26:39 - PHP Notice:  Error: Could not load language common/header! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
 2015-07-18 16:26:39 - PHP Notice:  Error: Could not load language common/footer! in C:\wamp\www\TechWorld-OpenCart\system\library\language.php on line 39
 2015-07-18 16:26:45 - PHP Notice:  Error: Could not load template C:\wamp\www\TechWorld-OpenCart/admin/view/templatecommon/header.tpl! in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
+2015-07-18 19:00:42 - PHP Notice:  Error: Could not load template C:\wamp\www\TechWorld-OpenCart/catalog/view/theme/default/template/common/footer.tpl! in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
+2015-07-18 19:03:17 - PHP Notice:  Error: Could not load template C:\wamp\www\TechWorld-OpenCart/catalog/view/theme/default/template/common/header.tpl! in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
+2015-07-18 19:05:28 - PHP Notice:  Error: Could not load template C:\wamp\www\TechWorld-OpenCart/catalog/view/theme/default/template/common/header.tpl! in C:\wamp\www\TechWorld-OpenCart\system\engine\controller.php on line 90
+2015-07-19 10:37:54 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:55 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:56 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:56 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:57 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:57 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:58 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:37:58 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
+2015-07-19 10:39:32 - PHP Warning:  date() expects at least 1 parameter, 0 given in C:\wamp\www\TechWorld-OpenCart\index.php on line 229
+2015-07-19 10:21:10 - PHP Notice:  Use of undefined constant looser - assumed 'looser' in C:\wamp\www\TechWorld-OpenCart\index.php on line 232

@@ -37,18 +37,10 @@
   </div>
 </div>
 <!--
----------------------------------------
- using default-black opencart 1.5 theme
- adapted by cryout creations (www.cryoutcreations.eu)
- from opencart's default theme
----------------------------------------
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
 //-->
-<div id="powered"><?php echo $powered; ?><br /><br /></div>
-  <div id="themed">
-       <a href="http://www.cryoutcreations.eu/" target="_blank">
-            <img src="catalog/view/theme/default-black/image/cr2.png" title="Default-Black Theme by Cryout Creations" alt="CR2">
-       </a>
-</div>
+<div id="powered"><?php echo $powered; ?></div>
 <!--
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
