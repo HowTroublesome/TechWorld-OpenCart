@@ -15,5 +15,10 @@ class ModelSettingSetting extends Model {
 
 		return $data;
 	}
+	
+	public function addMessage($data) {
+		$this->db->query("INSERT INTO " . DB_PREFIX . "admin_messages " . "(id, title, message) VALUES (1, '" . $data['title'] . "', '" . $data['message'] . "')");
+
+	}
 }
 ?>
