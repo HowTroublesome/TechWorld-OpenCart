@@ -13,10 +13,10 @@
   $currentHours = $match[1];
 
   $zeroArrayChecker = preg_split('//', $currentHours, -1, PREG_SPLIT_NO_EMPTY); 
-  if ( $zeroArrayChecker[0] == 0 ) { 
+  if ($zeroArrayChecker[0] == 0) { 
 	echo $currentHours = $zeroArrayChecker[1]; 
   }
-  
+
   # echo "<H1>" . "$currentHours" . "</H1>";
 
   $afternoonImage = "http://localhost/TechWorld/image/data/good_afternoon.png";
@@ -30,7 +30,7 @@
     $currentImage = $afternoonImage;
   }
   else {
-    echo "<H1>" . 'What...?' . "</H1>";
+    echo "<center><H1>" . 'What...? Wrong Time!' . "</H1></center>";
   }
 
   # echo "<H1>" . "$currentImage" . "</H1>";
