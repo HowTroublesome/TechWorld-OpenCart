@@ -14,7 +14,7 @@
 
   $zeroArrayChecker = preg_split('//', $currentHours, -1, PREG_SPLIT_NO_EMPTY); 
   if ($zeroArrayChecker[0] == 0) { 
-	$currentHours = $zeroArrayChecker[1]; 
+	  $currentHours = $zeroArrayChecker[1]; 
   }
 
   # echo "<H1>" . "$currentHours" . "</H1>";
