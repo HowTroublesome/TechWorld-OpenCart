@@ -142,3 +142,4 @@ admin\view\template\setting\setting.tpl
 admin\model\localisation\zone.php
 catalog\view\theme\default-black\template\common\footer.tpl
 catalog\view\theme\default-black\template\common\header.tpl
+system\startup.php

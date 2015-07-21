@@ -16,3 +16,30 @@
 2015-07-19 10:37:58 - PHP Notice:  Use of undefined constant action - assumed 'action' in C:\wamp\www\TechWorld-OpenCart\index.php on line 230
 2015-07-19 10:39:32 - PHP Warning:  date() expects at least 1 parameter, 0 given in C:\wamp\www\TechWorld-OpenCart\index.php on line 229
 2015-07-19 10:21:10 - PHP Notice:  Use of undefined constant looser - assumed 'looser' in C:\wamp\www\TechWorld-OpenCart\index.php on line 232
+2015-07-21 18:34:59 - PHP Notice:  Undefined variable: header_new in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:37:23 - PHP Notice:  Undefined variable: header_new in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:37:24 - PHP Notice:  Undefined variable: header_new in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:37:26 - PHP Notice:  Undefined variable: header_new in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:37:27 - PHP Notice:  Undefined variable: header_new in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:16 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:16 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:17 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:17 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:18 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:18 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:19 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:19 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:40:19 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:42:41 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:45:20 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:49:34 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:49:35 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:49:36 - PHP Notice:  Undefined variable: headernew in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 1
+2015-07-21 18:10:22 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Amerika/Adak' is invalid in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 5
+2015-07-21 18:10:24 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Amerika/Adak' is invalid in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 5
+2015-07-21 19:14:54 - PHP Notice:  Undefined variable: str in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 14
+2015-07-21 19:14:54 - PHP Notice:  Undefined variable: arr1 in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 15
+2015-07-21 19:14:54 - PHP Notice:  Undefined variable: arr1 in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 16
+2015-07-21 19:14:55 - PHP Notice:  Undefined variable: str in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 14
+2015-07-21 19:14:55 - PHP Notice:  Undefined variable: arr1 in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 15
+2015-07-21 19:14:55 - PHP Notice:  Undefined variable: arr1 in F:\Apps\WAMP\wamp\www\TechWorld\catalog\view\theme\default\template\common\home.tpl on line 16
