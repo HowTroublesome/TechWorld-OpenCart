@@ -1,6 +1,7 @@
 config.php
-index.php
 admin/config.php
-admin/index.php
+admin/DIR_LOGSerror.txt
 system/cache*
+vqmod/vqcache*
+vqmod/logs*
 .htaccess
