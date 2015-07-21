@@ -19,15 +19,15 @@
 
   # echo "<H1>" . "$currentHours" . "</H1>";
 
-  $afternoonImage = "http://localhost/TechWorld/image/data/good_afternoon.png";
-  $eveningImage = "http://localhost/TechWorld/image/data/good_evening.png";
+  $afternoonImage = HTTP_SERVER . "image/data/good_afternoon.png";
+  $eveningImage = HTTP_SERVER . "image/data/good_evening.png";
   $currentImage = "";
 
   if(($currentHours >= 0) && ($currentHours < 12)) {
-    $currentImage = $eveningImage;
+    $currentImage = $afternoonImage;
   }
   else if(($currentHours >= 12) && ($currentHours < 24)) {
-    $currentImage = $afternoonImage;
+    $currentImage = $eveningImage;
   }
   else {
     echo "<center><H1>" . 'What...? Wrong Time!' . "</H1></center>";

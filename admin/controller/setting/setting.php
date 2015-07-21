@@ -407,6 +407,12 @@ class ControllerSettingSetting extends Controller {
 		} else {
 			$this->data['config_template'] = $this->config->get('config_template');
 		}
+		//added because this needed to properly load settings in admin panel
+		if (isset($this->request->post['config_template_dark'])) {
+			$this->data['config_template_dark'] = $this->request->post['config_template_dark'];
+		} else {
+			$this->data['config_template_dark'] = $this->config->get('config_template_dark');
+		}
 
 		$this->data['templates'] = array();
 

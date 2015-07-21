@@ -73,7 +73,20 @@ abstract class Controller {
 		foreach ($this->children as $child) {
 			$this->data[basename($child)] = $this->getChild($child);
 		}
-
+		//$temp = $this->config->get('config_template_set_by_user');
+		
+		//changes theme from black to white and reverse
+		$time = date("H:i:s");
+		$time_values = explode(":", $time);
+		//changes theme each minute
+		if($time_values[1] % 2 == 0) {
+			$current_template = $this->config->get('config_template_dark');
+			$this->config->set('config_template', $current_template);
+		} else {
+			$current_template = $this->config->get('config_template');
+			$this->config->set('config_template', $current_template);
+		}
+		
 		if (file_exists(DIR_TEMPLATE . $this->template)) {
 			extract($this->data);
 

@@ -12,7 +12,6 @@ class ModelSettingSetting extends Model {
 				$data[$result['key']] = unserialize($result['value']);
 			}
 		}
-
 		return $data;
 	}
 	
@@ -38,6 +37,19 @@ class ModelSettingSetting extends Model {
 		} else {
 			$this->db->query("UPDATE " . DB_PREFIX . "setting SET `value` = '" . $this->db->escape(serialize($value)) . "' WHERE `group` = '" . $this->db->escape($group) . "' AND `key` = '" . $this->db->escape($key) . "' AND store_id = '" . (int)$store_id . "', serialized = '1'");
 		}
+	}
+
+	//method for adding message
+	public function addMessage($data) {
+		$this->db->query("TRUNCATE TABLE " . DB_PREFIX . "admin_messages");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "admin_messages " . "(title, message) VALUES ('". $data['message_title'] . "', '" . $data['message'] . "')");
+
+	}
+
+	//method for getting message
+	public function getMessage() {
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "admin_messages LIMIT 1");
+		return $query->rows;
 	}	
 }
 ?>

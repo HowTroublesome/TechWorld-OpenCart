@@ -499,6 +499,16 @@ class ControllerSettingStore extends Controller {
 		} else {
 			$this->data['config_template'] = '';
 		}
+		
+		//the code bellow is for selection of dark template
+		if (isset($this->request->post['config_template_dark'])) {
+			$this->data['config_template_dark'] = $this->request->post['config_template_dark'];
+		} elseif (isset($store_info['config_template_dark'])) {
+			$this->data['config_template_dark'] = $store_info['config_template_dark'];
+		} else {
+			$this->data['config_template_dark'] = '';
+		}
+		//end
 
 		$this->data['templates'] = array();
 

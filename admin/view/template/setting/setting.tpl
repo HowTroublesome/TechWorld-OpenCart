@@ -103,6 +103,34 @@
                   <?php } ?>
                 </select></td>
             </tr>
+			<tr>
+              <td>Template for night(dark): </td>
+              <td><select name="config_template_dark" onchange="$('#template_dark').load('index.php?route=setting/setting/template&token=<?php echo $token; ?>&template=' + encodeURIComponent(this.value));">
+                  <?php foreach ($templates as $template) { ?>
+                  <?php if ($template == $config_template_dark) { ?>
+                  <option value="<?php echo $template; ?>" selected="selected"><?php echo $template; ?></option>
+                  <?php } else { ?>
+                  <option value="<?php echo $template; ?>"><?php echo $template; ?></option>
+                  <?php } ?>
+                  <?php } ?>
+                </select></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td id="template_dark"></td>
+            </tr>
+            <tr>
+              <td><?php echo $entry_layout; ?></td>
+              <td><select name="config_layout_id">
+                  <?php foreach ($layouts as $layout) { ?>
+                  <?php if ($layout['layout_id'] == $config_layout_id) { ?>
+                  <option value="<?php echo $layout['layout_id']; ?>" selected="selected"><?php echo $layout['name']; ?></option>
+                  <?php } else { ?>
+                  <option value="<?php echo $layout['layout_id']; ?>"><?php echo $layout['name']; ?></option>
+                  <?php } ?>
+                  <?php } ?>
+                </select></td>
+            </tr>
           </table>
         </div>
         <div id="tab-local">
@@ -1006,6 +1034,9 @@
 </div>
 <script type="text/javascript"><!--
 $('#template').load('index.php?route=setting/setting/template&token=<?php echo $token; ?>&template=' + encodeURIComponent($('select[name=\'config_template\']').attr('value')));
+//--></script> 
+<script type="text/javascript"><!--
+$('#template_dark').load('index.php?route=setting/setting/template&token=<?php echo $token; ?>&template=' + encodeURIComponent($('select[name=\'config_template_dark\']').attr('value')));
 //--></script> 
 <script type="text/javascript"><!--
 $('select[name=\'config_country_id\']').bind('change', function() {
