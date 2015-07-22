@@ -11,6 +11,7 @@
 
   preg_match("/([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/", $currentTime, $match);
   $currentHours = $match[1];
+  $currentMinutes = $match[2];
 
   $zeroArrayChecker = preg_split('//', $currentHours, -1, PREG_SPLIT_NO_EMPTY); 
   if ($zeroArrayChecker[0] == 0) { 
@@ -23,11 +24,11 @@
   $eveningImage = HTTP_SERVER . "image/data/good_evening.png";
   $currentImage = "";
 
-  if(($currentHours >= 0) && ($currentHours < 12)) {
-    $currentImage = $afternoonImage;
-  }
-  else if(($currentHours >= 12) && ($currentHours < 24)) {
+  if(($currentMinutes % 2 == 0)) {
     $currentImage = $eveningImage;
+  }
+  else if($currentMinutes % 2 != 0) {
+    $currentImage = $afternoonImage;
   }
   else {
     echo "<center><H1>" . 'What...? Wrong Time!' . "</H1></center>";
