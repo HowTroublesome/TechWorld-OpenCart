@@ -20,8 +20,8 @@
 
   # echo "<H1>" . "$currentHours" . "</H1>";
 
-  $afternoonImage = HTTP_SERVER . "image/data/good_afternoon.png";
-  $eveningImage = HTTP_SERVER . "image/data/good_evening.png";
+  $afternoonImage = HTTP_SERVER . "image/data/NewAfternoonMessage.png";
+  $eveningImage = HTTP_SERVER . "image/data/NewEveningMessage.png";
   $currentImage = "";
 
   if(($currentMinutes % 2 == 0)) {
