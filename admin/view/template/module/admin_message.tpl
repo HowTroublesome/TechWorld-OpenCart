@@ -90,7 +90,32 @@
 			</tr>
 			<tr>
 				<td>Message: </td>
-				<td><textarea rows = "10" name="message" cols = "50"><?php echo $message_text; ?></textarea></td>
+				<td><select name="welcome_module[<?php echo $module_row; ?>][status]">
+                  <?php if ($module['status']) { ?>
+                  <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
+                  <option value="0"><?php echo $text_disabled; ?></option>
+                  <?php } else { ?>
+                  <option value="1"><?php echo $text_enabled; ?></option>
+                  <option value="0" selected="selected"><?php echo $text_disabled; ?></option>
+                  <?php } ?>
+                </select></td>
+          <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script> 
+<script type="text/javascript"><!--
+<?php $module_row = 1; ?>
+<?php foreach ($modules as $module) { ?>
+<?php foreach ($languages as $language) { ?>
+CKEDITOR.replace('description-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>', {
+  filebrowserBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+  filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+  filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+  filebrowserUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+  filebrowserImageUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
+  filebrowserFlashUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>'
+});
+<?php } ?>
+<?php $module_row++; ?>
+<?php } ?>
+//--></script> </td>
 			</tr>
 		  <tr>
 		  
