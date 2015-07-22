@@ -1023,16 +1023,17 @@ CREATE TABLE IF NOT EXISTS `oc_currency` (
   `status` tinyint(1) NOT NULL,
   `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`currency_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Схема на данните от таблица `oc_currency`
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.64289999, 1, '2015-07-21 21:54:23'),
-(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2015-07-22 15:03:17'),
-(3, 'Euro', 'EUR', '', '€', '2', 0.91420001, 1, '2015-07-21 21:54:23');
+(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.63990003, 0, '2015-07-22 16:35:22'),
+(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2015-07-22 15:33:12'),
+(3, 'Euro', 'EUR', '', '€', '2', 0.91680002, 1, '2015-07-22 15:33:12'),
+(4, 'Bulgarian Lev', 'BGN', '', 'лв.', '2', 1.79310000, 1, '2015-07-22 15:33:12');
 
 -- --------------------------------------------------------
 
